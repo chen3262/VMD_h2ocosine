@@ -8,7 +8,7 @@
 
 ## Reading .xtc file and call "h2ocosine" procedure
 
-cd into the repository, and then
+cd into the repository, and run
 
 ```bash
 vmd
@@ -20,9 +20,7 @@ In the Tk console, import the sample .xtc file by typing in
 source loading.tcl
 ```
 
-Wait until vmd finish loading all the frames.
-
-The following will call the "h2ocosine" procedure
+Wait until vmd finish loading all the frames. The following will call the "h2ocosine" procedure
 
 ```bash
 source VMD_h2ocosine.tcl
@@ -64,6 +62,3 @@ Average Cosine: -0.007079
 0.2-0.4		45		50
 0.0-0.2		61		59
 ```
-```
-! 2017 Modified by Si-Han Chen
-i 2017 Modified by Si-Han Chen

@@ -37,7 +37,7 @@ h2ocosine {frame_nu cos_lb cos_ub BD1 BD2}
 Arguments:
 - frame_nu is the frame number (integer)
 
-- cos_lb and cos_ub are the lower and upper bound of cosine theta values (float).
+- cos_lb and cos_ub are the lower and upper bound of absolute cosine theta values (non-neg float).
 
 - BD1 and BD2 set the boundaries of displaying region (in angstrom) in the z-direction of the simulation box (float).
 

@@ -1,6 +1,6 @@
 # VMD_h2ocosine
 
-[VMD](http://www.ks.uiuc.edu/Research/vmd/) script to label water molecules with different colors according to their orientations. 
+[VMD](http://www.ks.uiuc.edu/Research/vmd/) script to label water molecules with different colors according to their orientations. H2O molecules with H-atoms facing toward/against the nearest silica surface are colored by blue and red, respectively (aka H-down/H-up configuration). The depth of colour saturation is dependent on the value of cosine theta, where theta is the angle between H2O dipole vector and the outward surface normal. For example, the most red water molecule has theta = 0 degree, and the most blue water molecule has theta = 180 degree.
 
 ## Requirements
 
@@ -33,11 +33,13 @@ h2ocosine will display waer molecules at selected time frame, defined regions, a
 ```bash
 h2ocosine {frame_nu cos_lb cos_ub BD1 BD2}
 ```
-frame_nu is the frame number (integer)
 
-cos_lb and cos_ub are the lower and upper bound of cosine theta values (float), where theta is the angle between H2O dipole vector and the outward surface normal.
+Arguments:
+	-frame_nu is the frame number (integer)
 
-BD1 and BD2 set the boundaries of displaying region (in angstrom) in the z-direction of the simulation box (float).
+	-cos_lb and cos_ub are the lower and upper bound of cosine theta values (float).
+
+	-BD1 and BD2 set the boundaries of displaying region (in angstrom) in the z-direction of the simulation box (float).
 
 For example, in the Tk console, type in
 

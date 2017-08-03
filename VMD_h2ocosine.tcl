@@ -1,3 +1,9 @@
+#
+# This file is part of VMD_h2ocosine
+# https://github.com/chen3262/VMD_h2ocosine
+#
+# Copyright (c) 2016 Si-Han Chen
+#
 # Program:
 # 	This TCL procedure will display SOL molecules in each frame with different orientations, 
 #	labeling by different colors. 

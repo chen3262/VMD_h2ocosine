@@ -62,3 +62,9 @@ Average Cosine: -0.007079
 0.2-0.4		45		50
 0.0-0.2		61		59
 ```
+
+## License
+
+VMD_h2ocosine
+
+Copyright (C) 2016 Si-Han Chen

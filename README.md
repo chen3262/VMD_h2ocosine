@@ -1,5 +1,5 @@
 # VMD_h2ocosine
-![pic]<img src="https://github.com/chen3262/VMD_h2ocosine/blob/master/vmdscene.png" width="355">
+<img src="https://github.com/chen3262/VMD_h2ocosine/blob/master/vmdscene.png" width="355">
 
 [VMD](http://www.ks.uiuc.edu/Research/vmd/) script to label water molecules with different colors according to their orientations. H2O molecules with H-atoms facing toward/against the nearest silica surface are colored by blue and red, respectively (aka H-down/H-up configuration). The depth of colour saturation is dependent on the value of cosine theta, where theta is the angle between H2O dipole vector and the outward surface normal. For example, the most red water molecule has theta = 0 degree, and the most blue water molecule has theta = 180 degree.
 
